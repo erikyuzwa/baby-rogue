@@ -4,6 +4,7 @@
   "description": "this is an intro project to creating your own roguelike with rot.js and webpack",
   "main": "index.js",
   "scripts": {
+    "build": "webpack -p --colors",
     "start": "webpack-dev-server --d --colors --watch --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
